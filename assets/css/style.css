@@ -14,13 +14,27 @@
   background-color: #dfdfdf;
 }
 
+.editBG {
+  background-color: rgb(51, 51, 51);
+}
+
 .accounttext {
   font-size: 1em;
   color: #a0a09e;
 }
 
+.adittext {
+  color: #a0a09e;
+}
+
 .ulColor {
   color: rgb(82, 152, 228);
+}
+
+.editBtn {
+  padding: 3px;
+  font-size: 0.7em;
+  height: 23px;
 }
 
 @media (max-width: 767px) {

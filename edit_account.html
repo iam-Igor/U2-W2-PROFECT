@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Edit Account</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body class="bg-dark">
+    <div class="container-fluid sticky-top">
+      <div class="row">
+        <div class="col p-0">
+          <nav class="navbar navbar-expand-md bg-dark navFont">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="main.html">
+                <img
+                  src="assets/netflix_logo.png"
+                  alt="Logo"
+                  width="100"
+                  height="35"
+                  class="d-inline-block align-text-top"
+                />
+              </a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <main>
+      <div class="container-fluid w-50">
+        <div class="row">
+          <div class="col">
+            <h1 class="text-white">Edit Profile</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1 pe-0">
+            <img src="assets/avatar.png" width="80" />
+          </div>
+          <div class="col-3 ps-0 offset-1">
+            <h5 class="text-white navFont bg-secondary p-1 text-start">
+              Strive Student
+            </h5>
+            <div>
+              <h5 class="adittext navFont">Language</h5>
+            </div>
+            <button
+              type="button"
+              class="btn border border-secondary dropdown-toggle adittext editBtn rounded-0"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              English
+            </button>
+            <ul class="dropdown-menu bg-dark border border-secondary">
+              <li>
+                <a class="dropdown-item bg-dark text-white" href="#"
+                  >Italiano</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item bg-dark text-white" href="#">Espanol</a>
+              </li>
+              <li>
+                <a class="dropdown-item bg-dark text-white" href="#">Deutch</a>
+              </li>
+              <li>
+                <a class="dropdown-item bg-dark text-white" href="#"
+                  >Francais</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr class="border border-secondary" />
+        <div class="row">
+          <div class="col-5 offset-1">
+            <h2 class="adittext navFont">Maturity Settings:</h2>
+            <h2 class="text-white footFont editBG d-inline-block p-2">
+              ALL MATURITY RATINGS
+            </h2>
+            <p class="footFont text-white">
+              Show titles of all maturity ratings for this profile.
+            </p>
+            <button
+              type="button"
+              class="btn border border-secondary adittext editBtn p-1 rounded-0 pe-3 ps-3 mb-3"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              EDIT
+            </button>
+          </div>
+          <hr class="border border-secondary" />
+        </div>
+        <div class="row">
+          <div class="col offset-1">
+            <h2 class="adittext navFont">Autoplay controls</h2>
+            <div class="d">
+              <div class="input-group mb-3">
+                <div>
+                  <div class="d-flex align-items-center">
+                    <input
+                      class="form-check-input mt-0 border border-secondary bg-dark me-2"
+                      type="checkbox"
+                      value=""
+                      aria-label="Checkbox for following text input"
+                    />
+                    <label class="adittext navFont"
+                      >Autoplay next episode in a series on all devices.</label
+                    >
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <input
+                      class="form-check-input mt-0 border border-secondary bg-dark me-2"
+                      type="checkbox"
+                      value=""
+                      aria-label="Checkbox for following text input"
+                    />
+                    <label class="adittext navFont"
+                      >Autoplay previews while browsing on all devices.</label
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="border border-secondary" />
+
+        <div class="row">
+          <div class="col offset-1">
+            <button
+              type="button"
+              class="btn border border-secondary editBtn p-1 rounded-0 pe-3 ps-3 mb-3 bg-white fw-bold text-dark"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              SAVE
+            </button>
+            <button
+              type="button"
+              class="btn border border-secondary adittext editBtn p-1 rounded-0 pe-3 ps-3 mb-3"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              CANCEL
+            </button>
+            <button
+              type="button"
+              class="btn border border-secondary adittext editBtn p-1 rounded-0 pe-3 ps-3 mb-3"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              DELETE PROFILE
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script/script.js"></script>
+  </body>
+</html>
