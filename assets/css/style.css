@@ -1,0 +1,68 @@
+.navFont {
+  font-size: 0.9em;
+}
+
+.footFont {
+  font-size: 0.6em;
+}
+
+.footerM {
+  margin-top: 8em;
+}
+
+.accountButton {
+  background-color: #dfdfdf;
+}
+
+.accounttext {
+  font-size: 1em;
+  color: #a0a09e;
+}
+
+.ulColor {
+  color: rgb(82, 152, 228);
+}
+
+@media (max-width: 767px) {
+  .carousel-inner .carousel-item > div {
+    display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+@media (min-width: 768px) {
+  .carousel-inner .carousel-item-end.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+
+  .carousel-inner .carousel-item-start.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+  transform: translateX(0);
+}
+
+@media screen and (min-width: 769px) {
+  .carousel-item img {
+    width: 18%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .carousel-item img {
+    width: 200%;
+  }
+}
